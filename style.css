@@ -124,6 +124,11 @@ CONTACT
 MOBILE SIZE
 ================================================ */
 @media (max-width: 700px) {
+    .container {
+        overflow: auto;
+        scroll-snap-type: none;
+        height: 100vh;
+    }
     img {
         height: 150px;
         width: 150px;
