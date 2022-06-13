@@ -41,12 +41,6 @@ h3 p {
     color: #000;
     margin: 0 43vw;
 }
-h4 {
-    line-height: 1.7;
-    font-size: 1.125rem;
-    background-color: rgb(88,86,86,.5);
-    margin: 0 33vw;
-}
 .container {
     overflow: auto;
     scroll-snap-type: y mandatory;
@@ -90,6 +84,7 @@ MENU
     font-size: 1.5rem;
     margin-bottom: .5rem;
     line-height: 1.7;
+    cursor: pointer;
 }
 .menu-list th {
     font-weight: normal;
@@ -97,7 +92,10 @@ MENU
 .menu-list td {
     padding-left: 1rem;
 }
-
+.menu-list tr:hover {
+    background-color: rgba(227, 227, 39, 0.697);
+    color: #000;
+}
 /*
 CONTACT
 ================================================ */
@@ -136,6 +134,14 @@ CONTACT
 }
 .contact-sns a:hover {
     background: rgba(255,255,255,.5);
+}
+.contact-sns li img {
+    background: rgb(244, 244, 117);
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    margin: 0 .1rem 1rem;
+    padding: .25em;
 }
 /*
 IPAD SIZE
@@ -179,10 +185,6 @@ MOBILE SIZE
     }
     h3 p {
         margin: 0 6rem;
-    }
-    h4 {
-        font-size: 0.8rem;
-        margin: 0 12vw;
     }
     .menu-list li {
         font-size: 1rem;
