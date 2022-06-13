@@ -73,6 +73,7 @@ MENU
     background-image: url(images/hair-salon5.jpg);
     display: flex;
     align-items: center;
+    text-align: center;
 }
 .wrapper {
     max-width: 900px;
@@ -80,19 +81,48 @@ MENU
     margin: 0 auto;
     padding: 0 1rem;
 }
-.menu-list tr {
+.menu-list {
+    background-color: rgb(88,86,86,.5);
+    margin: 0 200px;
+}
+.menu-list ul {
+    display: none;
+}
+.menu-list ul.active {
+    display: block;
+}
+.menu-list li {
     font-size: 1.5rem;
     margin-bottom: .5rem;
     line-height: 1.7;
     cursor: pointer;
 }
-.menu-list th {
+.menu-list li {
     font-weight: normal;
 }
-.menu-list td {
-    padding-left: 1rem;
+.menu-list > li > a {
+    display: flex;
+    justify-content: space-between;
 }
-.menu-list tr:hover {
+.menu-list > li > a::after {
+    content: '>';
+    transform: rotate(90deg);
+    margin-right: 5px;
+}
+.menu-list > li > a.active::after {
+    transform: rotate(-90deg) translateY(-3px);
+}
+.menu-list > li > ul a {
+    display: block;
+    font-size: 18px;
+    margin-left: 25px;
+    text-align: left;
+    background-color:rgba(104, 71, 32, 0.6);
+}
+.menu-list > li > a {
+    transition: .8s;
+}
+.menu-list > li >a:hover {
     background-color: rgba(227, 227, 39, 0.697);
     color: #000;
 }
@@ -151,6 +181,9 @@ IPAD SIZE
         margin: 0 38vw;
     }
 }
+.sp_only {
+    display: block;
+}
 /*
 MOBILE SIZE
 ================================================ */
@@ -186,11 +219,12 @@ MOBILE SIZE
     h3 p {
         margin: 0 6rem;
     }
-    .menu-list li {
-        font-size: 1rem;
+    .menu-list {
+        margin: 0 10px;
     }
-    .menu-list tr {
-        font-size: 1rem;
+    .menu-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.1rem;
     }
     .hero {
         padding-top: 7vh;
