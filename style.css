@@ -14,6 +14,9 @@ body {
 /*
 COMMON
 ================================================ */
+.sp_only {
+    display: none;
+}
 .title {
     font-family: 'Dirot Regular', cursive;
     font-size: 7rem;
@@ -137,7 +140,7 @@ CONTACT
 /*
 IPAD SIZE
 ================================================ */
-@media (max-width: 1200px) and (min-width:701) {
+@media (max-width: 1200px) and (min-width:701px) {
     h3 p {
         margin: 0 38vw;
     }
@@ -146,6 +149,9 @@ IPAD SIZE
 MOBILE SIZE
 ================================================ */
 @media (max-width: 700px) {
+    .sp_only {
+        display: block;
+    }
     .container {
         overflow: auto;
         scroll-snap-type: none;
