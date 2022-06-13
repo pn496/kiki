@@ -135,7 +135,7 @@ CONTACT
     padding-top: 4vh;
 }
 .btn {
-    background: yellow;
+    background: rgb(244, 244, 117);
     font-size: 1.5rem;
     color: #555;
     padding: 1rem 3rem;
@@ -226,6 +226,9 @@ MOBILE SIZE
     font-size: 0.9rem;
     margin-bottom: 0.1rem;
     }
+    .menu-list > li > ul a {
+        font-size: 14px;
+    }
     .hero {
         padding-top: 7vh;
     }
@@ -237,10 +240,10 @@ MOBILE SIZE
     }
     .location-map iframe {
         position: absolute;
-        left: 0;
+        left: 3px;
         top: 0;
-        height: 100%;
-        width: 100%;
+        height: 98%;
+        width: 98%;
     }
     .btn {
         padding: 0rem 1rem;
