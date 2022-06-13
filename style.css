@@ -36,11 +36,11 @@ h3 {
 h3 p {
     background-color: rgba(227, 227, 39, 0.697);
     color: #000;
-    margin: 0 25rem;
+    margin: 0 43vw;
 }
 h4 {
     line-height: 1.7;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     background-color: rgb(88,86,86,.5);
     margin: 0 33vw;
 }
@@ -135,6 +135,14 @@ CONTACT
     background: rgba(255,255,255,.5);
 }
 /*
+IPAD SIZE
+================================================ */
+@media (max-width: 1200px) and (min-width:701) {
+    h3 p {
+        margin: 0 38vw;
+    }
+}
+/*
 MOBILE SIZE
 ================================================ */
 @media (max-width: 700px) {
@@ -153,7 +161,7 @@ MOBILE SIZE
     }
     p {
         padding: 0 1rem;
-        margin: 0 12vw;
+        margin: 0 10vw;
         font-size: 0.8rem;
     }
     h2 {
@@ -165,6 +173,10 @@ MOBILE SIZE
     }
     h3 p {
         margin: 0 6rem;
+    }
+    h4 {
+        font-size: 0.8rem;
+        margin: 0 12vw;
     }
     .menu-list li {
         font-size: 1rem;
@@ -190,7 +202,7 @@ MOBILE SIZE
     }
     .btn {
         padding: 0rem 1rem;
-        margin: 0.3rem 0 0.3rem;
+        margin: 0.4rem 0 0.5rem;
     }
     .contact-sns a {
         margin: 0 .5rem 0.5rem;
