@@ -19,14 +19,14 @@ COMMON
 }
 .title {
     font-family: 'Dirot Regular', cursive;
-    font-size: 7rem;
+    font-size: 5rem;
     margin: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 p {
     line-height: 1.7;
     font-size: 1.125rem;
     background-color: rgb(88,86,86,.5);
-    margin: 0 33vw;
 }
 h2 {
     line-height: 1.7;
@@ -39,7 +39,7 @@ h3 {
 h3 p {
     background-color: rgba(227, 227, 39, 0.697);
     color: #000;
-    margin: 0 43vw;
+    line-height: initial;
 }
 .container {
     overflow: auto;
@@ -53,7 +53,9 @@ section {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
+.red {
+    color: red;
+}
 /*
 HERO
 ================================================ */
@@ -76,14 +78,14 @@ MENU
     text-align: center;
 }
 .wrapper {
-    max-width: 900px;
+    max-width: 700px;
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
 }
 .menu-list {
     background-color: rgb(88,86,86,.5);
-    margin: 0 200px;
+    margin: 0 100px;
 }
 .menu-list ul {
     display: none;
@@ -177,12 +179,9 @@ CONTACT
 IPAD SIZE
 ================================================ */
 @media (max-width: 1200px) and (min-width:701px) {
-    h3 p {
-        margin: 0 38vw;
-    }
-}
 .sp_only {
     display: block;
+}
 }
 /*
 MOBILE SIZE
@@ -202,10 +201,9 @@ MOBILE SIZE
     }
     .title {
         font-size: 2.5rem;
-        margin: 1rem 0 0.3rem;
+        margin: 1rem 0;
     }
     p {
-        padding: 0 1rem;
         margin: 0 10vw;
         font-size: 0.8rem;
     }
@@ -246,7 +244,6 @@ MOBILE SIZE
         width: 98%;
     }
     .btn {
-        padding: 0rem 1rem;
         margin: 0.4rem 0 0.5rem;
     }
     .contact-sns a {
