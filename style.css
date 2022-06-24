@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /*
 GENERAL STYLING
 ================================================ */
@@ -52,9 +51,6 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-}
-.red {
-    color: ;
 }
 /*
 HERO
