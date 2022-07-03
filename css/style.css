@@ -159,7 +159,7 @@ p {
   font-size: 32px;
 /* margin-bottom: 5px; */
   color: #000;
-  text-shadow: 0 3px 6px rgba(195,45,77,.2);
+/* text-shadow: 0 3px 6px rgba(195,45,77,.2); */
 }
 .pageVisual-subtitle {
   font-size: 12px;
@@ -271,7 +271,7 @@ p {
 .footer {
   padding: 40px 20px;
   background-color: #000;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .footerNav {
   margin-bottom: 20px;
