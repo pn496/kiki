@@ -17,6 +17,9 @@ img {
 }
 li {
   list-style-type: none;
+  margin-left: 1.4rem;
+  text-indent: -1.4rem;
+  line-height: 1.7rem;
 }
 body {
   font-family: "EB Garamond","Noto Sans JP","Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
