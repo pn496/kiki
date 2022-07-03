@@ -328,9 +328,9 @@ p {
 /*--------------------------------
  下層ページ：アクセス
 ---------------------------------*/
-.access-lead {
-  margin-bottom: 30px;
-}
+/* .access-lead { */
+  /* margin-bottom: 30px; */
+/* } */
 .access-address {
   font-size: 15px;
   line-height: 1.7;
@@ -376,6 +376,9 @@ p {
 }
 .table01 li {
   list-style-type: inherit;
+}
+.sns p {
+  line-height: 1.5rem;
 }
 
 /*media Queries 768px以上
