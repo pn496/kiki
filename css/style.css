@@ -271,6 +271,7 @@ p {
 .footer {
   padding: 40px 20px;
   background-color: #000;
+  margin-top: 40px;
 }
 .footerNav {
   margin-bottom: 20px;
