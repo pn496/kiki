@@ -341,7 +341,7 @@ p {
   height: 350px;
 }
 .instagram-icon a {
-  zoom: 3;
+  zoom: 4;
 }
 /* テーブル */
 .table01 th,.table01 td {
@@ -478,6 +478,7 @@ p {
   /* フッター */
   .footer {
     padding: 50px 20px;
+    margin-top: 80px;
   }
   .footerNav {
     margin-bottom: 25px;
@@ -520,5 +521,8 @@ p {
   }
   .access-map iframe {
     height: 480px;
+  }
+  .instagram-icon a {
+    zoom: 4;
   }
 }
