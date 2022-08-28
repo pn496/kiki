@@ -714,4 +714,9 @@ p {
   .access-lead p {
     line-height: 1.7;
   }
+
+  .instagram-icon a {
+    font-size: 1rem;
+  }
+
 }
